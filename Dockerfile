@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 # Install required tools
 RUN   dpkg --add-architecture i386 \
  &&   apt-get update \                                                                                                                                                                                                                        
